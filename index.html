@@ -52,7 +52,9 @@
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+    
+  
+  <link href="//cdn.jsdelivr.net/npm/fancybox@3.0.1/dist/css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
 
 
 
@@ -743,7 +745,7 @@
 
   
   
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
   
 
   
@@ -758,7 +760,7 @@
 
   
   
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/fancybox@3.0.1/dist/js/jquery.fancybox.min.js"></script>
   
 
 
@@ -806,11 +808,15 @@
   
   
   
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+    
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.css">
 
   
   
-  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+    
+  
+  <script src="//cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.js"></script>
   
 
   <script src="/js/src/algolia-search.js?v=6.5.0"></script>
@@ -863,15 +869,15 @@
     
 
     $(function() {
-      $.get('https://app-router.leancloud.cn/2/route?appId=' + "VBX03g9jVFOTOlEitR22HXRL-gzGzoHsz")
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + "Kz2cCq6DEy7siTcXpJfBpsMh-gzGzoHsz")
         .done(function ({ api_server }) {
           var Counter = function (method, url, data) {
             return $.ajax({
               method: method,
               url: `https://${api_server}/1.1${url}`,
               headers: {
-                'X-LC-Id': "VBX03g9jVFOTOlEitR22HXRL-gzGzoHsz",
-                'X-LC-Key': "z1zhGoaNCAyBQQQeRpuogINk",
+                'X-LC-Id': "Kz2cCq6DEy7siTcXpJfBpsMh-gzGzoHsz",
+                'X-LC-Key': "I9jo5FdyG36J9M0Ha2WTxNaH",
                 'Content-Type': 'application/json',
               },
               data: data,
